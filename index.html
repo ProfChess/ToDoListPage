@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>My To-Do List</title>
+    <link rel="stylesheet" href="Styles/style.css">
+</head>
+<body class="BackgroundDefault">
+    <!--Title-->
+    <div class="TitleBorder">
+        <p class="Title">To Do List:</p>
+    </div>
+
+    <!--Input for New Tasks-->
+    <div class="TaskIndented">
+        <p class="InputTitle">ADD TASK</p>
+        <input id="taskTextField" type="text" placeholder="Enter Task" class="InputDefault"/>
+        <button id="addButton" class="InputDefault">ADD</button>
+    </div>
+
+    <!--Container for Tasks-->
+    
+    <div>
+        <h1 class="TaskListClass">TASKS</h1>
+        <!--Function Buttons-->
+        <div>
+            <button id="clearButton" class="InputDefault">CLEAR</button>
+            <button id="pageUpButton" class="InputDefault PageButtonClass">PAGE UP</button>
+            <button id="pageDownButton" class="InputDefault PageButtonClass">PAGE DOWN</button>
+        </div>
+
+        <p id="pageNumDisplay">PAGE: 1</p>
+        <ul id="taskList">
+        </ul>
+    </div>
+
+    <script src="Scripts/script.js"></script>
+</body>
+</html>

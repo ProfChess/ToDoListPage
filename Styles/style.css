@@ -1,0 +1,151 @@
+/*HTML*/
+
+/*Background Style*/
+.BackgroundDefault {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    min-height: 100vh;
+    min-width: 100vw;
+    box-sizing: border-box;
+    border: 0.8rem double;
+}
+
+/*Title Styles*/
+.Title{
+    font-size: 45px;
+    font-weight: bold;
+}
+.TitleBorder{
+    text-align: center;
+    text-decoration: underline;
+    border-block-color: grey;
+}
+
+/*Styles for Tasks*/
+/*Placement*/
+.TaskDefault {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    margin: 0 0 1vh 0;
+    
+}
+.TaskIndented {
+    width: 90vw;
+    margin-left: 3.5vw;
+    padding: 0;
+}
+#taskList{
+    padding-left: 0.2rem;
+    margin: 0 0 0 2vw;
+}
+.TaskListClass {
+    width: 40vw;
+    padding-left: 0;
+    padding-top: 1.5vh;
+    margin-left: 3.625vw;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+/*Text*/
+.TaskText {
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+    flex: 0 0 auto;
+    text-overflow: ellipsis;
+    display: inline-block;
+    max-width: 60vw;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.Checked{
+    color: grey;
+    font-style: italic;
+}
+/*Checkbox*/
+.TaskCheckbox {
+    height: 4vh;
+    width: 4vh;
+    display: block;
+    flex: 0 0 auto;
+}
+/*Delete Button*/
+.TaskDeleteButton {
+    height: 4vh;
+    width: 4vh;
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;
+}
+.TaskDeleteButton:hover{
+    background-color: aqua;
+}
+
+
+/*Input Styles*/
+.InputDefault {
+    box-sizing: border-box;
+    height: 4vw;
+    width: 10vw;
+    white-space: nowrap;
+    background-color: white;
+    color: black;
+    font-size: 1.2vw;
+}
+.InputTitle{
+    font-size: 1rem;
+    padding-left: 0.1rem;
+    margin: 0 0 0 0;
+}
+
+#taskTextField {
+    width: 20vw;
+    font-style: italic;
+}
+
+/*BUTTONS*/
+/*Add Button*/
+#addButton {
+
+    font-weight: bold;
+    text-align: center;
+}
+#addButton:hover{
+    background-color: aqua;
+}
+/*Clear Button*/
+#clearButton {
+    margin-left: 3.625vw;
+    margin-bottom: 1vw;
+    width: 8vw;
+    font-weight: bold;
+    text-align: center;
+}
+#clearButton:hover{
+    background: aqua;
+}
+/*Page Buttons*/
+.PageButtonClass {
+    margin-bottom: 1vw;
+    font-weight: bold;
+    text-align: center;
+}
+.PageButtonClass:hover{
+    background: aqua;
+}
+#pageNumDisplay {
+    margin-left: 3.5vw;
+    font-size: 1rem;
+    padding-left: 0.2rem;
+}
+
+
+
